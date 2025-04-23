@@ -1,9 +1,9 @@
 
-# 📊 Blinkit Sales Analysis Project
+#   Blinkit Sales Analysis Project
 
 This project contains a detailed analysis of Blinkit's retail data using Python. It explores patterns in sales, item characteristics, and outlet performance.
 
-## 📁 Dataset Used
+##  Dataset Used
 
 - `blinkit_data_P1.csv`  
   Contains columns like:
@@ -11,7 +11,7 @@ This project contains a detailed analysis of Blinkit's retail data using Python.
   - Sales and Ratings
   - Outlet Establishment Year, Type, Size, Location
 
-## 🧰 Libraries Used
+##  Libraries Used
 
 ```python
 import pandas as pd
@@ -22,7 +22,7 @@ import seaborn as sns
 
 ---
 
-## 🧹 Step 1: Data Cleaning
+##  Step 1: Data Cleaning
 
 ### Q: How is the data formatted and are there inconsistencies?
 
@@ -36,7 +36,7 @@ df['Item_Fat_Content'].replace({'LF': 'Low Fat', 'low fat': 'Low Fat', 'reg': 'R
 
 ---
 
-## 📊 Step 2: Exploratory Data Analysis (EDA)
+##  Step 2: Exploratory Data Analysis (EDA)
 
 ### Q: What is the total and average sales?
 
@@ -82,16 +82,3 @@ sns.barplot(x='Sales', y='Outlet_Location_Type', data=sales_by_location)
 
 ---
 
-## 🚀 How to Run
-
-1. Ensure you have `blinkit_data_P1.csv` and `Blinkit_P1.ipynb` in the same folder.
-2. Open the notebook using Jupyter Notebook or Google Colab.
-3. Run the cells step-by-step to visualize the analysis.
-
----
-
-## 📎 Future Work
-
-- Add predictive analytics (e.g., regression).
-- Dashboard with Plotly or Dash.
-- Customer behavior segmentation.
